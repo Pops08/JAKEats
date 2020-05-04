@@ -170,6 +170,7 @@ $(searchHistory).on("click", "a", function (event) {
     userInput = buttonEl
     foodApiSearch(buttonEl);
 
+    window.google = undefined;
     var GMapSection = document.getElementById("GMapSection");
     var GMapDynamic = document.getElementById("DynamicGMap");
 
