@@ -14,10 +14,10 @@ Online menu and restaurant options, with mapping to nearby eateries.
 ## Site and Repo location
 
 * URL for the site
-https://ktrnthsnr.github.io/JAK-eats
+https://pops08.github.io/JAKEats/
 
 * GitHub file repo
-https://github.com/ktrnthsnr/JAK-eats
+https://github.com/Pops08/JAKEats
 
 ## Contributors
 Pops08, Drkeck, ktrnthsnr
