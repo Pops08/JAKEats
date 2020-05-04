@@ -38,7 +38,7 @@ var saveSearch = function (event) {
     var userFoodInput = document.querySelector('#Food').value;
     var userFoodItem = userFoodInput.toLowerCase();
     logSearch(userFoodItem);
-    //foodApiSearch(userFoodItem);
+    foodApiSearch(userFoodItem);
     userFoodInput.value = '';
 }
 
@@ -168,7 +168,7 @@ $(searchHistory).on("click", "a", function (event) {
     event.preventDefault();
     var buttonEl = event.target.textContent;
     userInput = buttonEl
-    //foodApiSearch(buttonEl);
+    foodApiSearch(buttonEl);
 
     var GMapSection = document.getElementById("GMapSection");
     var GMapDynamic = document.getElementById("DynamicGMap");
